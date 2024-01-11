@@ -13,7 +13,7 @@ public class Calculadora {
                         break;
                 case 2: //resultat = resta(operador1,operador2);
                         break;
-                case 3: //resultat = divisio(operador1,operador2);
+                case 3: resultat = divisio(operador1,operador2);
                         break;
                 case 4: //resultat = multiplicacio(operador1,operador2);
                         break;
@@ -34,6 +34,9 @@ public class Calculadora {
                               "  3-divisió\n"+
                               "  4-multiplicacio\n"+
                               "  5-sortir";
+    }
+    public static int divisio (int num1, int num2){
+        return num1/num2;
     }
 
 }
