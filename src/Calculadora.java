@@ -11,7 +11,7 @@ public class Calculadora {
             switch (opcio){
                 case 1: //resultat = suma(operador1,operador2);
                         break;
-                case 2: //resultat = resta(operador1,operador2);
+                case 2: resultat = resta(operador1,operador2);
                         break;
                 case 3: //resultat = divisio(operador1,operador2);
                         break;
@@ -25,6 +25,9 @@ public class Calculadora {
 
     }
 
+    private static int resta(int operador1, int operador2) {
+        return operador1-operador2;
+    }
 
 
     private static String getMenu() {
