@@ -15,12 +15,12 @@ public class Calculadora {
                         break;
                 case 3: //resultat = divisio(operador1,operador2);
                         break;
-                case 4: //resultat = multiplicacio(operador1,operador2);
+                case 4: resultat = multiplicacion(operador1,operador2);
                         break;
                 case 5:  sortir = true;
 
             }
-            System.out.println("El resulta de la operacio es " + resultat);
+            System.out.println("El resultat de la operacio es " + resultat);
         }
 
     }
@@ -34,6 +34,9 @@ public class Calculadora {
                               "  3-divisió\n"+
                               "  4-multiplicacio\n"+
                               "  5-sortir";
+    }
+    public static int multiplicacion(int a,int b){
+        return a*b;
     }
 
 }
