@@ -29,6 +29,10 @@ public class Calculadora {
         return a + b;
     }
 
+    public static int multiplicacion(int a,int b){
+        return a*b;
+    }
+
     private static String getMenu() {
         return "Quina operació vols realitzar:\n"+
                               "  1-suma\n"+
@@ -37,8 +41,4 @@ public class Calculadora {
                               "  4-multiplicacio\n"+
                               "  5-sortir";
     }
-    public static int multiplicacion(int a,int b){
-        return a*b;
-    }
-
 }
