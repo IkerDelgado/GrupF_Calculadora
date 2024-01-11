@@ -25,6 +25,12 @@ public class Calculadora {
 
     }
 
+    /**
+     * resta dos operadors
+     * @param operador1
+     * @param operador2
+     * @return
+     */
     private static int resta(int operador1, int operador2) {
         return operador1-operador2;
     }
