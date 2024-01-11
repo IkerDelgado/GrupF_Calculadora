@@ -9,25 +9,23 @@ public class Calculadora {
             int operador2 = Utils.LlegirInt("Escriu el valor del segon operador: ");
             int opcio = Utils.LlegirInt(getMenu());
             switch (opcio){
-                case 1: resultat = suma(operador1,operador2);
+                case 1: //resultat = suma(operador1,operador2);
                         break;
-                case 2: //resultat = resta(operador1,operador2);
+                case 2: resultat = resta(operador1,operador2);
                         break;
                 case 3: //resultat = divisio(operador1,operador2);
                         break;
-                case 4: resultat = multiplicacion(operador1,operador2);
+                case 4: //resultat = multiplicacio(operador1,operador2);
                         break;
                 case 5:  sortir = true;
 
             }
-            System.out.println("El resultat de la operacio es " + resultat);
+            System.out.println("El resulta de la operacio es " + resultat);
         }
 
     }
 
-    public static int suma (int a,int b){
-        return a + b;
-    }
+
 
     private static String getMenu() {
         return "Quina operació vols realitzar:\n"+
@@ -36,9 +34,6 @@ public class Calculadora {
                               "  3-divisió\n"+
                               "  4-multiplicacio\n"+
                               "  5-sortir";
-    }
-    public static int multiplicacion(int a,int b){
-        return a*b;
     }
 
 }
