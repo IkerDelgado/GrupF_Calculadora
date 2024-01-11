@@ -24,6 +24,9 @@ public class Calculadora {
         }
 
     }
+    public static int divisio (int num1, int num2){
+        return num1/num2;
+    }
 
 
 
@@ -34,9 +37,6 @@ public class Calculadora {
                               "  3-divisió\n"+
                               "  4-multiplicacio\n"+
                               "  5-sortir";
-    }
-    public static int divisio (int num1, int num2){
-        return num1/num2;
     }
 
 }
