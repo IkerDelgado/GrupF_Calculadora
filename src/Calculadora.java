@@ -29,7 +29,6 @@ public class Calculadora {
         return a - b;
     }
 
-
     private static String getMenu() {
         return "Quina operació vols realitzar:\n"+
                               "  1-suma\n"+
