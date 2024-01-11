@@ -15,24 +15,18 @@ public class Calculadora {
                         break;
                 case 3: //resultat = divisio(operador1,operador2);
                         break;
-                case 4: //resultat = multiplicacio(operador1,operador2);
+                case 4: //resultat = multiplicacion(operador1,operador2);
                         break;
                 case 5:  sortir = true;
 
             }
-            System.out.println("El resulta de la operacio es " + resultat);
+            System.out.println("El resultat de la operacio es " + resultat);
         }
 
     }
 
-    /**
-     * resta dos operadors
-     * @param operador1
-     * @param operador2
-     * @return
-     */
-    private static int resta(int operador1, int operador2) {
-        return operador1-operador2;
+    public static int resta (int a,int b){
+        return a - b;
     }
 
 
@@ -44,5 +38,4 @@ public class Calculadora {
                               "  4-multiplicacio\n"+
                               "  5-sortir";
     }
-
 }
