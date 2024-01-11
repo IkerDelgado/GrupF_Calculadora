@@ -13,7 +13,7 @@ public class Calculadora {
                         break;
                 case 2: //resultat = resta(operador1,operador2);
                         break;
-                case 3: //resultat = divisio(operador1,operador2);
+                case 3: resultat = divisio(operador1,operador2);
                         break;
                 case 4: resultat = multiplicacion(operador1,operador2);
                         break;
@@ -23,6 +23,9 @@ public class Calculadora {
             System.out.println("El resultat de la operacio es " + resultat);
         }
 
+    }
+    public static int divisio (int num1, int num2){
+        return num1/num2;
     }
 
     public static int suma (int a,int b){
