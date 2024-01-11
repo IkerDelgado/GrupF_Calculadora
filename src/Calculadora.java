@@ -9,7 +9,7 @@ public class Calculadora {
             int operador2 = Utils.LlegirInt("Escriu el valor del segon operador: ");
             int opcio = Utils.LlegirInt(getMenu());
             switch (opcio){
-                case 1: //resultat = suma(operador1,operador2);
+                case 1: resultat = suma(operador1,operador2);
                         break;
                 case 2: //resultat = resta(operador1,operador2);
                         break;
@@ -25,7 +25,9 @@ public class Calculadora {
 
     }
 
-
+    public static int suma (int a,int b){
+        return a + b;
+    }
 
     private static String getMenu() {
         return "Quina operació vols realitzar:\n"+
