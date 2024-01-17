@@ -6,10 +6,10 @@ class RestaTest {
 
     @Test
     void restaEquals() {
-        int numero1 = 10;
+        int numero1 = 20;
         int numero2= 5;
 
-        int resultado= 5;
+        int resultado= 15;
         assertEquals(resultado,Calculadora.resta(numero1,numero2));
     }
 
